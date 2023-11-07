@@ -1,0 +1,39 @@
+/* Base - Global */
+ul {
+        list-style-type: none;
+}
+/* Buttons */
+.button {
+        color:#faf4ea;
+        background-color: #819b57;
+        border: 2px solid #819b57;
+        border-radius: 8px;
+        cursor: pointer;
+}
+.button:hover {
+        color: #465929;
+        background-color: transparent;
+}
+/* Link */
+.link {
+        color: #faf4ea;
+}
+.link:hover {
+        color: #819b57;
+
+}
+/* Hero section */
+.hero-title {
+        color: #faf4ea;
+}
+.hero-title .accent {
+        color: #819557;
+}
+/* advantages section */
+.advantages-list {
+        color: #faf4ea;
+        background-color: #819b57;
+}
+.section-title{
+        color: #31261a;
+}

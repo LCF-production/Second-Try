@@ -34,7 +34,9 @@
 }
 
 /* Base - Global */
-* {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -201,7 +203,8 @@ ul {
 /* chef section */
 .chefs-list {
   display: flex;
-  gap: 30px;
+  gap: 40px 30px;
+  flex-wrap: wrap;
 }
 .chefs-item {
   flex-basis: calc((100% - 30px) / 2);
@@ -231,6 +234,9 @@ ul {
   border-radius: 4px 4px 4px 200px;
   box-shadow: -16px 16px 0px 0px var(--color-primary-light),
     -16px 16px 0px 2px var(--color-secondary-dark);
+}
+.chef-text p {
+  margin-bottom: 24px;
 }
 
 /* formats section */

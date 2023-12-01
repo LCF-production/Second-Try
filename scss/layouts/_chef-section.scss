@@ -1,0 +1,31 @@
+.chefs-list {
+  display: flex;
+  gap: 40px 30px;
+  flex-wrap: wrap;
+}
+
+.chefs-item {
+  flex-basis: calc((100% - 30px) / 2);
+}
+
+.chefs-title::after,
+.chefs-title::before {
+  position: absolute;
+  bottom: 24px;
+  /* display: block;  через position absolute він став блоковим*/
+  width: 352px;
+  border: 2px solid var(--color-brand-light);
+  content: "";
+}
+
+.chefs-title::before {
+  left: 0;
+}
+
+.chefs-title::after {
+  right: 0;
+}
+.chefs-title {
+  position: relative;
+  margin: 0px auto 80px;
+}
